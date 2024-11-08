@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget tracking application</title>
+</head>
+<body>
+   <script>
+
+
+//    variable declarations above
+
+// prompt user for input amount
+const income= prompt("Enter income amount")
+console.log("you have", +income+"in income");
+
+const expenses= prompt("Enter Expenses amount")
+console.log("you have", +expenses+ "in expenses")
+
+
+console.log(income - expenses);
+
+// if-else statement for positive and negative balances
+if( expenses > income){
+    console.log("Balance is negative")
+}
+else{
+    console.log("Balance is positive")
+}
+
+// part2
+
+
+   </script>
+
+</body>
+</html>

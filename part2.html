@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Budget Tracker</title>
+</head>
+
+<body>
+    <script>
+        
+        
+// Part 2: Enhanced Budget Tracker
+
+// Step 1: Declare arrays for incomes and expenses
+ const incomes = [];
+const expenses = [];
+
+// Function to add an amount to either income or expense
+function addAmount(type, amount) {
+    // TODO: Validate amount and add it to the correct array
+}
+
+// Function to calculate the total of an array
+function calculateTotal(incomes) {
+    let total = 0;
+   for (let total=0; total< incomes.length; total++){
+    total +=incomes(total);
+       
+   }
+    return total;
+}
+
+// Function to calculate and display the balance
+function calculateBalance() {
+    // TODO: Calculate total income and total expenses
+    // TODO: Calculate the balance
+    // TODO: Determine if the balance is positive or negative
+    // TODO: Display the balance and its status
+}
+
+// Step 2: Input Flow for Income
+let incomeInput = prompt("Enter an income amount (or type 'done' to finish):");
+while (incomeInput.toLowerCase() !== "done") {
+    // TODO: Call addAmount function for income
+    incomeInput = prompt("Enter another income amount (or type 'done' to finish):");
+}
+
+// Step 3: Input Flow for Expenses
+let expenseInput = prompt("Enter an expense amount (or type 'done' to finish):");
+while (expenseInput.toLowerCase() !== "done") {
+    // TODO: Call addAmount function for expenses
+    expenseInput = prompt("Enter another expense amount (or type 'done' to finish):");
+}
+
+// Step 4: Calculate and display the final balance
+calculateBalance();
+        // enterIncomeAmount(income=prompt("Enter income amount"))
+       
+    
+    </script>
+</body>
+</html>
